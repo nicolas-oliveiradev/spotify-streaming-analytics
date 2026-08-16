@@ -6,7 +6,7 @@ Pipeline de dados End-to-End desenvolvido para extrair, transformar, armazenar e
 
 ## Visao Geral do Dashboard
 
-![Visualizacao do Dashboard]([docs/dashboard_preview.png](https://github.com/nicolas-oliveiradev/spotify-streaming-analytics/blob/main/docs/dashboard_spotify.png))
+[Visualizacao do Dashboard](docs/dashboard_spotify.png)
 
 ---
 
