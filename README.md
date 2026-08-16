@@ -59,7 +59,8 @@ DIVIDE(
     )
 )
 ```
-
+## Estrutura do Repositório
+```
 ├── data/
 │   ├── raw/              # Arquivos JSON brutos do Spotify
 │   └── processed/        # Banco SQLite com os dados limpos
@@ -71,7 +72,7 @@ DIVIDE(
 ├── docs/
 │   └── dashboard_preview.png   # Imagem do dashboard para o README
 └── README.md             # Documentacao do projeto
-
+```
 ## Como Executar o Projeto
 ### 1. Clonar o repositorio:
 
