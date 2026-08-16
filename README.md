@@ -4,34 +4,34 @@ Pipeline de dados End-to-End desenvolvido para extrair, transformar, armazenar e
 
 ---
 
-## Visao Geral do Dashboard
+## Visão Geral do Dashboard
 
-[Visualizacao do Dashboard](docs/dashboard_spotify.png)
+[Visualização do Dashboard](docs/dashboard_spotify.png)
 
 ---
 
-## Arquitetura da Solucao e Tecnologias
+## Arquitetura da Solução e Tecnologias
 
-* **Ingestao e Tratamento de Dados (Python / Pandas):**
-  * Leitura e consolidacao dos arquivos JSON brutos do historico de reproducao.
-  * Tratamento de valores ausentes, conversao de tipos de dados e transformacao de milissegundos para minutos e horas.
+* **Ingestão e Tratamento de Dados (Python / Pandas):**
+  * Leitura e consolidação dos arquivos JSON brutos do histórico de reprodução.
+  * Tratamento de valores ausentes, conversão de tipos de dados e transformação de milissegundos para minutos e horas.
 
 * **Armazenamento Relacional (SQLite):**
   * Carga dos dados limpos em banco de dados relacional.
   * Consultas SQL para validacao de integridade e regras de negocio.
 
-* **Visualizacao e Business Intelligence (Power BI / DAX):**
-  * Modelagem de dados e criacao de medidas dinamicas em DAX.
-  * Interface desenvolvida em Dark Mode, priorizando usabilidade (UX/UI) e hierarquia de informacoes.
+* **Visualização e Business Intelligence (Power BI / DAX):**
+  * Modelagem de dados e criação de medidas dinâmicas em DAX.
+  * Interface desenvolvida em Dark Mode, priorizando usabilidade (UX/UI) e hierarquia de informações.
 
 ---
 
-## Principais Metricas e Insights
+## Principais Métricas e Insights
 
-* **Volume Total:** Mais de 803 horas de reproducao acumuladas em aproximadamente 15 mil execucoes.
-* **Artista Mais Ouvido:** Lideranca do artista YOASOBI, superando 100 horas de execucao no periodo.
-* **Consumo Diario:** Média ajustada de aproximadamente 66 minutos diarios.
-* **Tendencia:** Crescimento continuo no volume de reproducoes a partir de novembro de 2025.
+* **Volume Total:** Mais de 803 horas de reprodução acumuladas em aproximadamente 15 mil execuções.
+* **Artista Mais Ouvido:** Liderança do artista YOASOBI, superando 100 horas de execução no período.
+* **Consumo Diário:** Média ajustada de aproximadamente 66 minutos diários.
+* **Tendencia:** Crescimento continuo no volume de reproduções a partir de novembro de 2025.
 
 ---
 
@@ -74,7 +74,7 @@ DIVIDE(
 └── README.md             # Documentacao do projeto
 ```
 ## Como Executar o Projeto
-### 1. Clonar o repositorio:
+### 1. Clonar o repositório:
 
 git clone [https://github.com/seu-usuario/spotify-streaming-analytics.git](https://github.com/seu-usuario/spotify-streaming-analytics.git)
 
@@ -86,10 +86,10 @@ python scripts/etl_spotify.py
 
 Abra o arquivo dashboard/spotify_analytics.pbix no Power BI Desktop.
 
-Atualize a conexao do banco apontando para o arquivo SQLite em data/processed/.
+Atualize a conexão do banco apontando para o arquivo SQLite em data/processed/.
 
 ## Autor
-Desenvolvido por Nicolas Oliveira Araujo.
+Desenvolvido por Nicolas Oliveira Araújo.
 
 LinkedIn: [link-do-perfil](https://www.linkedin.com/in/nicolas-oliveira-araújo-b8a40133b/)
 
